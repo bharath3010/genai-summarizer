@@ -1,32 +1,32 @@
 # 🤖 GenAI Text Summarizer & Q&A Assistant
 
-An AI-powered web app that **summarizes research papers, articles, and long-form text** using transformer models — and can also **answer questions** based on the content.
-
-Built with **Hugging Face Transformers** and **Streamlit** by [Bharath S](https://github.com/bharath3010).
-
----
-
-## 🌟 Demo
-
-🚀 **Live App:** [https://bharath3010-genai-summarizer.streamlit.app](#) *(Add after deployment)*  
-💻 **GitHub Repo:** [https://github.com/bharath3010/genai-text-summarizer-and-qa-assistant](#)
+An AI-powered web app that **summarizes text** and **answers questions** using transformer-based language models.  
+Built with ❤️ using **Hugging Face Transformers** and **Streamlit** by [Bharath S](https://github.com/bharath3010).
 
 ---
 
-## 📸 Preview
+## 🌐 Live Demo
 
-![App Screenshot](https://raw.githubusercontent.com/bharath3010/genai-text-summarizer-and-qa-assistant/main/preview.png)
-
-*(You can take a screenshot after deployment and name it `preview.png`)*
+🚀 **Try it here:** [https://i33ztba2pr4cuhabruqz8i.streamlit.app/](https://i33ztba2pr4cuhabruqz8i.streamlit.app/)  
+📦 **GitHub Repo:** [https://github.com/bharath3010/genai-summarizer](https://github.com/bharath3010/genai-summarizer)
 
 ---
 
 ## 🧠 Features
 
-- ✨ Summarize any long text instantly  
-- 💬 Ask natural language questions and get answers  
+- ✨ Summarizes long text passages instantly  
+- 💬 Answers user questions from the given text context  
 - ⚡ Powered by **BART** and **RoBERTa** transformer models  
-- 🖥️ Streamlit web interface (no setup complexity)
+- 🖥️ Clean and interactive Streamlit web UI  
+- 📄 Works on any topic — research papers, articles, blogs, etc.
+
+---
+
+## 📸 Preview
+
+![App Screenshot](https://raw.githubusercontent.com/bharath3010/genai-summarizer/main/preview.png)
+
+*(You can replace this image after taking a screenshot of your app.)*
 
 ---
 
@@ -36,18 +36,20 @@ Built with **Hugging Face Transformers** and **Streamlit** by [Bharath S](https:
 |------------|-------------|
 | Frontend UI | Streamlit |
 | AI Models | Hugging Face Transformers |
-| NLP Models Used | `facebook/bart-large-cnn`, `deepset/roberta-base-squad2` |
-| Language | Python |
+| Models Used | `facebook/bart-large-cnn`, `deepset/roberta-base-squad2` |
+| Programming Language | Python |
 | Hosting | Streamlit Cloud |
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
-Clone the repo and run locally:
+### 🧩 Prerequisites
+- Python 3.8 or higher  
+- Pip or Conda environment
 
+### 🛠️ Installation
 ```bash
-git clone https://github.com/bharath3010/genai-text-summarizer-and-qa-assistant.git
-cd genai-text-summarizer-and-qa-assistant
+git clone https://github.com/bharath3010/genai-summarizer.git
+cd genai-summarizer
 pip install -r requirements.txt
-streamlit run app.py
