@@ -26,8 +26,6 @@ Built with ❤️ using **Hugging Face Transformers** and **Streamlit** by [Bhar
 
 ![App Screenshot](https://raw.githubusercontent.com/bharath3010/genai-summarizer/main/preview.png)
 
-*(You can replace this image after taking a screenshot of your app.)*
-
 ---
 
 ## ⚙️ Tech Stack
