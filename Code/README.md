@@ -54,6 +54,8 @@ git clone https://github.com/bharath3010/genai-summarizer.git
 cd genai-summarizer
 pip install -r requirements.txt
 
+---
+
 ### ▶️ Run the app
 
 1. Open your terminal and run:
